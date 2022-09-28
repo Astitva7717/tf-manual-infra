@@ -8,8 +8,8 @@ terraform {
 
 provider "aws" {
   region     = "ap-south-1"
-  access_key = "AKIAQZFSU2W5CUJLTTWV"
-  secret_key = "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"
+  access_key = ""
+  secret_key = ""
 }
 
 resource "aws_vpc" "test" {
